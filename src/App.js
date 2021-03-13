@@ -9,7 +9,9 @@ import 'react-confirm-alert/src/react-confirm-alert.css'; // Import css
 var QRCode = require("qrcode.react");
 const EthereumTx = require("ethereumjs-tx").Transaction;
 
+//this url has to be changed with your port number
 const web3 = new Web3("http://127.0.0.1:7545");
+
 console.log(web3.eth);
 
 class App extends Component {
